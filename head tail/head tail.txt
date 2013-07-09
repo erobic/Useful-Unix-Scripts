@@ -1,0 +1,15 @@
+#top 2 lines:
+head -2 file
+head -n 2 file 
+head -n +2 file
+
+#except last two lines
+head -n -2 file
+
+#last 2 lines
+tail -2 file 
+tail -n 2 file
+tail -n -2 file
+
+#from 2nd line till last line
+tail -n +2 

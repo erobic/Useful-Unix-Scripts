@@ -1,0 +1,5 @@
+There is really no such concept as "start of string" and "end of string."
+
+To print a variable: awk '{print $'$column'}'
+
+awk '{print $column}' does not work
